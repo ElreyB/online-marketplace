@@ -19,6 +19,10 @@ $(document).ready(function(){
     $("#store-form").hide();
     $(".receipt-page").show();
     event.preventDefault();
+  });
 
+  $("h3").click(function() {
+    $("#store-form").show();
+    $(".receipt-page").hide();
   });
 });
