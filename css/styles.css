@@ -1,3 +1,20 @@
 .receipt-page {
   display: none;
 }
+
+.row {
+  margin-bottom: 50px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3:hover {
+  text-decoration: underline;
+  color: blue;
+}

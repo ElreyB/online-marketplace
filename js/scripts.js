@@ -16,13 +16,13 @@ $(document).ready(function(){
     $(".jewelry").text(jewelryInput);
     $(".stone").text(stoneInput);
 
-    $("#store-form").hide();
+    $(".form-page").hide();
     $(".receipt-page").show();
     event.preventDefault();
   });
 
   $("h3").click(function() {
-    $("#store-form").show();
+    $(".form-page").show();
     $(".receipt-page").hide();
   });
 });

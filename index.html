@@ -17,17 +17,20 @@
 <!--display images and infor -->
         <div class="row">
           <div class="col-md-4">
-            <img src="" alt="">
+            <img src="img/necklace.jpg" alt="necklace" class="img-thumbnail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-md-4">
-            <img src="" alt="">
+            <img src="img/earrings.jpg" alt="earrings" class="img-thumbnail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-md-4">
-            <img src="" alt="">
+            <img src="img/bracelet.jpg" alt="bracelet" class="img-thumbnail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
 <!--form begins  -->
-        <form id="store-form">
+        <form id="store-form" class="well">
           <div class="form-group">
             <label for="name">Full name:</label>
             <input id="name" class="form-control" type="text">
@@ -90,18 +93,22 @@
       </div>
 <!--Start of receipt-->
       <div class="receipt-page">
-        <div class="page-header">
-          <h2>Thank you <span class="name"></span> for shopping at apieceofstar</h2>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h2>Thank you <span class="name"></span> for shopping at apieceofstar</h2>
+          </div>
+          <div class="panel-body">
+            <div class="receipt">
+              <p><span class="name"></span></p>
+              <p><span class="street"></span></p>
+              <p><span class="city"></span> <span class="state"></span> <span class="zip"></span></p>
+              <p>Jewelry type: <span class="jewelry"></span></p>
+              <p>Stone choice: <span class="stone"></span></p>
+              <p>Thank you for shopping at apieceofstar. We hope to to see you again.</p>
+            </div>
+          </div>
         </div>
-        <div class="receipt">
-          <p><span class="name"></span></p>
-          <p><span class="street"></span></p>
-          <p><span class="city"></span> <span class="state"></span> <span class="zip"></span></p>
-          <p>Jewelry type: <span class="jewelry"></span></p>
-          <p>Stone choice: <span class="stone"></span></p>
-          <p>Thank you for shopping at apieceofstar. We hope to to see you again.</p>
-          <h3>Home</h3>
-        </div>
+        <h3>Home</h3>
       </div>
     </div>
   </body>
